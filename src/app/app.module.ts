@@ -3,14 +3,18 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { FormcontrolExerciseComponent } from './components/formcontrol-exercise/formcontrol-exercise.component';
+import { FormgroupExerciseComponent } from './components/formgroup-exercise/formgroup-exercise.component';
+import { AppRoutingModule } from './app-routing.module ';
 
 @NgModule({
   declarations: [
     AppComponent,
-    FormcontrolExerciseComponent
+    FormcontrolExerciseComponent,
+    FormgroupExerciseComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

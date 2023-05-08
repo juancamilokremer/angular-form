@@ -1,0 +1,11 @@
+.nav-bar {
+    background: #297529;
+    color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    padding: 20px;
+}
