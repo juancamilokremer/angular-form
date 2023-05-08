@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { FormcontrolExerciseComponent } from './components/formcontrol-exercise/formcontrol-exercise.component';
 import { FormgroupExerciseComponent } from './components/formgroup-exercise/formgroup-exercise.component';
 import { AppRoutingModule } from './app-routing.module ';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import { AppRoutingModule } from './app-routing.module ';
   ],
   imports: [
     BrowserModule,
+    ReactiveFormsModule,
     AppRoutingModule
   ],
   providers: [],

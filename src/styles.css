@@ -25,3 +25,21 @@ input {
   font-size: 1rem;
   margin-bottom: 10px;
 }
+
+.ng-touched.ng-invalid:is(input),
+.ng-dirty.ng-invalid:is(input) {
+  outline: 2px solid #bd0c0c;
+}
+
+.ng-dirty.ng-pending:is(input) {
+  outline: 2px solid #838a2a;
+}
+
+.error {
+    font-size: 0.75rem;
+    color: #bd0c0c;
+    margin-bottom: 16px;
+    margin-top: -8px;
+    /* display: flex;
+    flex-direction: column; */
+}
